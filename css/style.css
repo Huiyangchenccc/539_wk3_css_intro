@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(255, 233, 214);
+}
+
 h1{
     color: blue;
     background-color: yellow;
@@ -5,15 +9,18 @@ h1{
 }
 p{
     color: blue;
-    background-color: rgb(255, 255, 255);
     font-family:Arial, Helvetica, sans-serif;
 }
 h2{
     color: rgb(255, 21, 173);
-    background-color: rgb(255, 255, 255);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 li{
     float: left;
     margin: 0 20px;
+}
+p{
+    border: 3px black dashed;
+    border-color: blueviolet;
+    border-width: 2px;
 }
